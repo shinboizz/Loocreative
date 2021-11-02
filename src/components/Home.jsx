@@ -1,5 +1,6 @@
 import React from "react";
 
+
 import product1 from './img/about1.jpg';
 import product2 from './img/about2.jpg';
 import product3 from './img/contact.jpg';
@@ -9,11 +10,12 @@ import product6 from './img/laptop.png';
 import product7 from './img/dolaptop.jpg';
 
 
+
 function Home() {
   return (
 <body id="page-top">     
     <header class="masthead d-flex align-items-center">
-            <div class="container px-4 px-lg-5 text-center">
+            <div class="container px-4 px-lg-5 text-left">
                 <h1 class="mb-1">서울에서 </h1>
                 <h3 class="mb-5"><em>안녕하세요 여러분 좋은 하루 되세요 </em></h3>
                 <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
@@ -25,12 +27,10 @@ function Home() {
             <div class="col-lg-10">
                 <h2>My website is about me!</h2>
                 <p class="lead mb-5">
-                    if you want to find a website or about bootstrap go to the link !
-
-                    <a href="https://getbootstrap.com//">Boostrap</a>
-                    !
+                    Welcome to my website!
+                    <br /> Test loocative,
                 </p>
-                <a class="btn btn-dark btn-xl" href="#services">What We Offer</a>
+                <a class="btn btn-primary btn-xl" href="#services">What We Offer</a>
             </div>
         </div>
     </div>
@@ -50,7 +50,7 @@ function Home() {
                     <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                         <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-pencil"></i></span>
                         <h4><strong>Redesigned</strong></h4>
-                        <p class="text-faded mb-0">Freshly redesigned for Bootstrap 5.</p>
+                        <p class="text-faded mb-0">Freshly redesigned </p>
                     </div>
                     <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
                         <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-like"></i></span>
@@ -58,7 +58,7 @@ function Home() {
                         <p class="text-faded mb-0">
                             Millions of users
                             <i class="fas fa-heart"></i>
-                            Start Bootstrap!
+                            Start Looking!!!
                         </p>
                     </div>
                     <div class="col-lg-3 col-md-6">
@@ -204,18 +204,16 @@ function Home() {
 
 
 
-                <article class="card mb-4">
-                <header class="card-header">
+                <article class="card mb-4 ">
+                <header class="card-header center-tittle">
                   <div class="card-meta">
-                    <a href="#"><time class="timeago" datetime="2019-10-26 20:00" timeago-id="2">1 year ago</time></a> ~에  <a href="page-category.html">shinboizz</a>
+                    <h1>소년들을 위한 아주 좋은 것들</h1>
                   </div>
-                  
-                    <h4 class="card-title">우리는 어떻게 사랑에 대해 노래할 수 있습니까? </h4>
-                  
+                    <h5 class="card-title">우리는 어떻게 사랑에 대해 노래할 수 있습니까? </h5>
                 </header>
                 
                 <div class="row gx-0 mb-5 mb-lg-6 align-items-center">
-                    <div class="col-xl-3 col-lg-4 "><img class="img-fluid mb-3 mb-lg-0"  width="300" height="200" src={product7} alt="..." /></div>
+                    <div class="col-xl-7 col-lg-4 "><img class="img-fluid2 center"  width="300" height="200" src={product7} alt="..." /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
                             <p>재미있고 사교적이다 </p>
@@ -228,20 +226,29 @@ function Home() {
                             <h4>잘 생긴 수줍은 소녀 </h4>
                             <p class="text-black-50 mb-0">소년들을 위한 아주 좋은 것들 </p>
                         </div>
+                        
                     </div>
-                </div>
-            
-              
-                <div class="card-body">
-                  <p class="card-text">생산적인 것이 어떤 것인지 말해줘  </p>
-                </div>
-                
+                    
+
+                    <div class="featured-text text-left1">
+                            <p>재미있고 사교적이다 </p>
+                            <h4>잘 생긴 수줍은 소녀 </h4>
+                            <p class="text-black-50 mb-0">소년들을 위한 아주 좋은 것들 </p>
+                            <p>재미있고 사교적이다 </p>
+                            <h4>잘 생긴 수줍은 소녀 </h4>
+                            <p class="text-black-50 mb-0">소년들을 위한 아주 좋은 것들 </p>
+                            <p>재미있고 사교적이다 </p>
+                            <h4>잘 생긴 수줍은 소녀 </h4>
+                            <p class="text-black-50 mb-0">소년들을 위한 아주 좋은 것들 </p>
+                        </div>
+                   
+                   
+                    <div class="btn">
+                        <p class="btn btn-dark center-button ">생산적인 것이 어떤 것인지 말해줘  </p>
+                    </div>
+                </div>     
               
               </article>
-                
-
-                
-
 
         </section>
 </body> 
