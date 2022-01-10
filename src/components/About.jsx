@@ -11,10 +11,7 @@ function About() {
                     <div class="col-lg-10">
                         <h2>My website is about me!</h2>
                         <p class="lead mb-5">
-                            if you want to find a website or about bootstrap go to the link !
-
-                            <a href="https://getbootstrap.com//">Boostrap</a>
-                            !
+                            Welcome to my website
                         </p>
                         <a class="btn btn-dark btn-xl" href="#services">What We Offer</a>
                     </div>

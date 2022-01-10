@@ -559,7 +559,34 @@ progress {
   max-width: 100%;
   height: auto;
 }
-
+.img-fluid2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.center-tittle {
+  text-align: center;
+}
+.center-button {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px sold black;
+  
+}
+.text-left1{
+  position: absolute;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+.clearfix{
+  content: "";
+  clear: both;
+  display: table;
+}
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;

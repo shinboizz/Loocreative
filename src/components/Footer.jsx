@@ -18,6 +18,7 @@ function Footer() {
                 <p class="text-muted small mb-0">Copyright &copy; Shinboizz 2021</p>
             </div>
             </footer>
+            
   );
 }
 
